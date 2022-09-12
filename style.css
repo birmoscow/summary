@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300&display=swap');
+#ul_hr {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+}
+
+#ul_hr_li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 3%; /* Отступ слева */
+    text-align: justify;
+    padding-left: 10px; /* Отступ от маркера до текста */
+    line-height: 2;
+}
+
+
+#text_p_3px {
+    text-align: justify;
+    padding: 6px;
+}
+
+#li_lst_16{
+    line-height: 1.7;
+    list-style-type: disc;
+}
+
+#li_lst_def{
+    width: 100%;
+    margin-top: 10px;
+    height: auto;
+    line-height: 1.2;
+    list-style-type: none; /* Убираем маркеры */
+}
+#li_lst_def_2{
+    width: 100%;
+    margin-top: 5px;
+    height: auto;
+    line-height: 1.2;
+    list-style-type: none; /* Убираем маркеры */
+}
+
+#li_16{
+    width: 100%;
+    height: 30%;
+    line-height: 1.6;
+    list-style-type: none; /* Убираем маркеры */
+}
+
+#li_12 {
+    height: 33%;
+    font-size: 100%;
+    line-height: 2;
+    list-style-type: none; /* Убираем маркеры */
+}
+
+#sp_ul {
+    position: absolute;
+    font-size: 100%;
+    height: 100%;
+    bottom: 0;
+    top: auto;
+}
+
+#sp_ul_2 {
+    left: auto;
+    right: 0;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: rgb(255, 255, 255) url(background.svg);
+    min-height: 220px;
+    color: #000;
+    background-repeat: repeat;
+}
+
+.container {
+    max-width: 800px;
+    width: 90vw;
+    background-color: #fff;
+    height: auto;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.header {
+    margin: 2% 2%; /* сверху | справа | снизу | слева */
+    width: 96%;
+    max-width: 780px;
+    max-height: 400px;
+    display: inline-flex;
+}
+
+
+.photo {
+    width: 25%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 400px;
+    background: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 1% 0 0;
+}
+
+.right_header {
+    text-align: left;
+    max-height: 400px;
+    width: 100%;
+    height: auto;
+    margin: 0 3% 0 0;
+    /* border: 1px solid black; */
+}
+
+
+.name {
+    margin-bottom: 1vh;
+    width: 50%;
+    position: relative;
+}
+
+.title {
+    height: 30%;
+    margin: 0 0 0 0;
+    font-size: 100%;
+}
+
+.contacts {
+    width: 50%;
+    height: 100%;
+    text-align: right;
+    position: relative;
+}
+
+.main_inf {
+    margin: 0 0;
+    width: 100%;
+    height: 67%;
+    display: inline-flex;
+}
+
+.text{
+    width: 100%;
+    position: absolute;
+    font-size: 16px;
+}
+
+.text_2 {
+    width: 100%;
+    position: absolute;
+    font-size: 16px;
+}
+
+.title .text_title {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+.main_text { 
+    margin-top: 5vh;
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 4vh;
+}
+
+
+.skill {
+    background-color: #000;
+    margin-left: 0.1vw;
+    padding: 0;
+    color: #fff;
+    display: inline;
+    border-radius: 5px;
+}
+
+.line_of_skills {
+    margin-top: 1vh;
+    width: 100%;
+    height: auto;
+    display: inline inline;
+}
+
+
+.skills {
+    text-align: center;
+    margin-top: 2vmin;
+    width: auto;
+    height: auto;
+}
+
+.social { 
+    margin-top: 50px;
+    width: 90%;
+    height: auto;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
